@@ -37,17 +37,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.txtStudentId = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.txtMiddleName = new System.Windows.Forms.TextBox();
+            this.cmbProgram = new System.Windows.Forms.ComboBox();
+            this.cmbGender = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RegisterButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,56 +123,56 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "List Of Club Members";
             // 
-            // textBox1
+            // txtStudentId
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 20);
-            this.textBox1.TabIndex = 8;
+            this.txtStudentId.Location = new System.Drawing.Point(32, 50);
+            this.txtStudentId.Name = "txtStudentId";
+            this.txtStudentId.Size = new System.Drawing.Size(151, 20);
+            this.txtStudentId.TabIndex = 8;
             // 
-            // textBox2
+            // txtLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(32, 93);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtLastName.Location = new System.Drawing.Point(32, 93);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(151, 20);
+            this.txtLastName.TabIndex = 9;
             // 
-            // textBox3
+            // txtAge
             // 
-            this.textBox3.Location = new System.Drawing.Point(32, 142);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
+            this.txtAge.Location = new System.Drawing.Point(32, 142);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(100, 20);
+            this.txtAge.TabIndex = 10;
             // 
-            // textBox4
+            // txtFirstName
             // 
-            this.textBox4.Location = new System.Drawing.Point(225, 93);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(152, 20);
-            this.textBox4.TabIndex = 11;
+            this.txtFirstName.Location = new System.Drawing.Point(225, 93);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(152, 20);
+            this.txtFirstName.TabIndex = 11;
             // 
-            // textBox5
+            // txtMiddleName
             // 
-            this.textBox5.Location = new System.Drawing.Point(412, 93);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(127, 20);
-            this.textBox5.TabIndex = 12;
+            this.txtMiddleName.Location = new System.Drawing.Point(412, 93);
+            this.txtMiddleName.Name = "txtMiddleName";
+            this.txtMiddleName.Size = new System.Drawing.Size(127, 20);
+            this.txtMiddleName.TabIndex = 12;
             // 
-            // comboBox1
+            // cmbProgram
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(412, 50);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(127, 21);
-            this.comboBox1.TabIndex = 13;
+            this.cmbProgram.FormattingEnabled = true;
+            this.cmbProgram.Location = new System.Drawing.Point(412, 50);
+            this.cmbProgram.Name = "cmbProgram";
+            this.cmbProgram.Size = new System.Drawing.Size(127, 21);
+            this.cmbProgram.TabIndex = 13;
             // 
-            // comboBox2
+            // cmbGender
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(225, 142);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 14;
+            this.cmbGender.FormattingEnabled = true;
+            this.cmbGender.Location = new System.Drawing.Point(225, 142);
+            this.cmbGender.Name = "cmbGender";
+            this.cmbGender.Size = new System.Drawing.Size(121, 21);
+            this.cmbGender.TabIndex = 14;
             // 
             // dataGridView1
             // 
@@ -182,14 +182,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(507, 150);
             this.dataGridView1.TabIndex = 15;
             // 
-            // button1
+            // RegisterButton
             // 
-            this.button1.Location = new System.Drawing.Point(550, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.RegisterButton.Location = new System.Drawing.Point(550, 29);
+            this.RegisterButton.Name = "RegisterButton";
+            this.RegisterButton.Size = new System.Drawing.Size(75, 23);
+            this.RegisterButton.TabIndex = 16;
+            this.RegisterButton.Text = "Register";
+            this.RegisterButton.UseVisualStyleBackColor = true;
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // button2
             // 
@@ -199,15 +200,16 @@
             this.button2.TabIndex = 17;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnRefresh
             // 
-            this.button3.Location = new System.Drawing.Point(550, 205);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Refresh";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRefresh.Location = new System.Drawing.Point(550, 205);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(75, 23);
+            this.btnRefresh.TabIndex = 18;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -216,17 +218,17 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(653, 378);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.RegisterButton);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cmbGender);
+            this.Controls.Add(this.cmbProgram);
+            this.Controls.Add(this.txtMiddleName);
+            this.Controls.Add(this.txtFirstName);
+            this.Controls.Add(this.txtAge);
+            this.Controls.Add(this.txtLastName);
+            this.Controls.Add(this.txtStudentId);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -253,17 +255,17 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox txtStudentId;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.TextBox txtMiddleName;
+        private System.Windows.Forms.ComboBox cmbProgram;
+        private System.Windows.Forms.ComboBox cmbGender;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RegisterButton;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnRefresh;
     }
 }
 
